@@ -45,23 +45,23 @@
           <div class="collapse navbar-collapse mx-2 px-2" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Hotel El Cacique</a>
+                <a class="nav-link" href="../hotel/hotel.html">Hotel El Cacique</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Planos</a>
+                <a class="nav-link" href="../construccion.html">Planos</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Galeria
-                </a>
+                    Galeria
+                  </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="./hotel/hotel.html">Hotel</a></li>
-                  <li><a class="dropdown-item" href="./local/local.html">Serviteca</a></li>
-                  <li><a class="dropdown-item" href="#">Surtidores</a></li>
-                  <li><a class="dropdown-item" href="./generador/respaldo.html">Subestación electrica</a></li>
+                  <li><a class="dropdown-item" href="../hotel/hotel.html">Hotel</a></li>
+                  <li><a class="dropdown-item" href="../local/local.html">Serviteca</a></li>
+                  <li><a class="dropdown-item" href="../construccion.html">Surtidores</a></li>
+                  <li><a class="dropdown-item" href="../generador/respaldo.html">Subestación electrica</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -78,7 +78,9 @@
         <h1 class="display-5 fw-bold">Serviteca</h1>
         <p class="col-md-8 fs-4">Local abierto con area total de 58.11 m2, luminarias led, sonido, cámaras de seguridad, baño,
             bodega y espacio para cocina con meson y lavaplatos y con local contiguo para suministros con area de 37.57 m2</p>
-        <button class="btn btn-primary btn-lg" type="button">Ver detalles</button>
+        <a href="#detalles">
+            <button class="btn btn-primary btn-lg" type="button">Detalles</button>
+        </a>
       </div>
     </div>
 
@@ -86,14 +88,14 @@
 
 
 </main>
-<div class="container-fluid">
+<div class="container-fluid px-0" id="detalles">
     <div class="row featurette">
         <div class = "col-5 "> 
             <h2 class="featurette-heading">Serviteca <span class="text-muted">con local de 58.11 m2 construidos</span></h2>
             <p class="lead">Local contiguo para almacenamiento de suministros con area construida de 37.57 m2</p>
-            <a href="https://www.google.com/maps/@2.571685,-76.5580882,13.83z">
+            <a href="#album">
               <button type="button" class="btn btn-primary">
-                Ver fotos
+                Fotos
               </button>
             </a>
         </div>
@@ -104,7 +106,7 @@
         </div>
     </div>
     
-    <hr class="featurette-divider">    
+    <div class="b-example-divider"></div>
 
   </div>
 <div class="album py-5 bg-light" id="album">
@@ -120,7 +122,10 @@
               
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                      <a href="../construccion.html">
+                        <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                      </a>     
+                      
 
                 </div>
                
@@ -137,7 +142,9 @@
               <p class="card-text">Puertas de acceso en madera</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  <a href="../construccion.html">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </a>     
                 </div>
 
               </div>
@@ -154,7 +161,9 @@
               <br>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  <a href="../construccion.html">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Ver</button>
+                  </a>     
                 </div>
 
               </div>

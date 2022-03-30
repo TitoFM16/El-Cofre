@@ -16,10 +16,25 @@
 } */
 
 .navbar{
-    background-color: #e9bd15 ;
+    background-color: #e91515 ;
+    text-decoration: none;
 }
+.navbar-brand{
+  color: white;
+  text-decoration: none !important;
+}
+.navbar-brand:hover{
+  color: white;
+  text-decoration: none !important;
+}
+.navbar-nav .nav-link{
+  color: white;
+  text-decoration: none !important;
+}
+
 .footer{
-    background-color: #e9bd15 ;
+    background-color:#e91515 ;
+    color: white;
 }
 .mapa{
     width: 100%;
@@ -126,7 +141,7 @@
 }
 
 .b-example-divider {
-  height: 3rem;
+  height: 1.5rem;
   background-color: rgba(0, 0, 0, .1);
   border: solid rgba(0, 0, 0, .15);
   border-width: 1px 0;

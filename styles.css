@@ -17,7 +17,11 @@
 
 .navbar{
     background-color: #e91515 ;
-    text-decoration: none;
+    text-decoration: none !important;
+}
+.navbar:hover{
+  color:white;
+  text-decoration: none !important;
 }
 .navbar-brand{
   color: white;

@@ -21,6 +21,8 @@
 .navbar{
     background-color: #e91515 ;
     text-decoration: none !important;
+    padding-top: 15px;
+    padding-bottom: 5px;
 }
 .navbar:hover{
   color:white;

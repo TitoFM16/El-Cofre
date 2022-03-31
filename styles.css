@@ -1,7 +1,5 @@
 
-/* .carousel{
-    width: 100%;
-}
+/*
 
 .carousel-caption{
     top: 80%;
@@ -13,6 +11,10 @@
     -webkit-transform-style: preserve-3d;
     -moz-transform-style: preserve-3d;
     transform-style: preserve-3d;
+} */
+
+/* .carousel{
+  
 } */
 
 .navbar{
@@ -91,6 +93,7 @@
     padding-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    margin-left: 1rem;
   }
 
   .featurette-divider {

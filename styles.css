@@ -18,6 +18,9 @@
 } */
 
 
+html, body { height: 100%; }
+
+
 .navbar{
     background-color: #e91515 ;
     text-decoration: none !important;

@@ -137,8 +137,8 @@
       <!-- <iframe width="auto" height="100%" src="https://www.youtube.com/embed/mFHtOFCw9-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
       <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/I4XXvxDPVwc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
-      <div class="container my-2 py-2 d-flex justify-content-center" >
-
+      <div class="container my-2 py-2 d-flex flex-column justify-content-center" >
+        <h2 class="display-5 d-flex justify-content-center my-2 py-2">Servicios</h2>
         <!-- Three columns of text below the carousel -->
         <div class="row d-flex justify-content-center">
           <div class="col-md-3 col-8 offset-md-1 card shadow mb-3 pt-2 "  style="text-align: center;">
@@ -370,23 +370,92 @@
         <div class = "b-example-divider"></div>
 
         <div class="row featurette">
-          <div class = "col-7 d-flex justify-content-center text-center"> 
+          <div class = "col-7 d-flex justify-content-center align-items-center text-center"> 
             <a href="">
-              <img class="local card shadow" src="./Photos/local_R.jpg" >
+              <img class="local card shadow" src="./Photos/administracion.png" >
             </a>
             
           </div>
           <div class = "col-5 "> 
             <h2 class="featurette-heading">Oficinas administrativas <i class="fa-solid fa-briefcase "></i><span class="text-muted"></span></h2>
-            <p class="lead">Area construida: 58.11 m2</p>
+            <p class="lead">Area construida: 50 m2</p>
             <p class="lead d-none d-md-block">Local contiguo con area construida de 37.57 m2</p>
             <p class="lead d-none d-md-block">Local Abierto, con luminarias Led, sonido, camaras de seguridad, baños, bodega y area de cocina</p>
             <!-- add a button -->
-            <a href="./local/local.html">
-              <button type="button" class="btn btn-primary">
+
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal3">
                 Ver detalles
               </button>
-            </a>
+              <div class="btn-group">                 
+                <!-- Button trigger modal -->
+
+  
+                <!-- Modal -->
+                <div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header container">
+                        <h5 class="display-5 d-flex justify-content-center modal-title display-5" id="modal3Label">Administración</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body container">
+  
+                        <ul>
+                          <li>
+                            <p>Oficina con  escritorio en vidrio templado Catania</p>
+                          </li>
+                          <li>
+                            <p>Televisor de 43 pulgadas para juntas</p>
+                          </li>
+                          <li>
+                            <p>Luminarias led</p>
+                          </li>
+                          <li>
+                            <p>Cámaras de seguridad</p>
+                          </li>
+                          <li>
+                            <p>Sensores de humo</p>
+                          </li>
+                          <li>
+                            <p>Sonido
+                            </p>
+                          </li>
+                          <li>
+                            <p>Chimenea de gas
+                            </p>
+                          </li>
+                          <li>
+                            <p>Botón de pánico
+                            </p>
+                          </li>
+                          <li>
+                            <p>Baño con sanitario, lavamanos con mueble, espejo y accesorios</p>
+                          </li>
+                          <li>
+                            <p>Fachada en vidrio templado de 10 mm, con accesorios en acero inoxidable
+                            </p>
+                          </li>
+                          <li>
+                            <p>
+                              Sala de Juntas
+                            </p>
+                          </li>
+                        </ul>
+                        <div class="embed-responsive embed-responsive-16by9 d-flex justify-content-center ">
+                          <iframe width="560" height="315" class="embed-responsive-item " src="./Photos/administracion.gif" allowfullscreen></iframe>
+                        </div>
+  
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+  
+                      </div>
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+
           </div>
         </div>     
         

@@ -157,3 +157,12 @@ html, body { height: 100%; }
 .iconos-movil .row a{
   text-decoration: none !important;
 } 
+.fondo-hotel{
+  background-image: url("./Photos/pasillo-habitaciones.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  width: 100%;
+  
+}

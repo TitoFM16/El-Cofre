@@ -202,7 +202,7 @@
             <h2>Alojamiento</h2>
             <p>Hotel El Cacique <br>24 habitaciones y 1 suite con area total de 384 m2</p>
             <br>
-            <p><br><a class="btn btn-primary" href="./hotel/hotel.html">Detalles &raquo;</a></p>
+            <p><br><a class="btn btn-primary" href="./hotel/hotel.html" data-bs-toggle="modal" data-bs-target="#alojamientoModal">Detalles &raquo;</a></p>
           </div><!-- /.col-md-4 card shadow -->
           <div class="col-md-3 col-8 offset-md-1 card shadow mb-3 pt-2" style="text-align: center;">
             <i class="fa-solid fa-utensils fa-5x"></i>
@@ -212,8 +212,40 @@
             <p>Restaurante con capacidad para 15 mesas <br>Area total de 122.92 m2</p>
             
             <br>
-            <p><a class="btn btn-primary" href="./hotel/hotel.html">Detalles &raquo;</a></p>
-            
+            <p><a class="btn btn-primary" href="./hotel/restaurante.html">Detalles &raquo;</a></p>
+            <div class="btn-group">                 
+              <!-- Button trigger modal is outside, above...-->
+
+              <!-- Modal -->
+              <div class="modal fade" id="alojamientoModal" tabindex="-1" aria-labelledby="alojamientoModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title display-5" id="alojamientoModalLabel">Alojamiento</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body container">
+                      <h2 class="display-5">Habitaciones</h2>
+                      <p class="lead" style="text-align: left;">
+                        24 Habitaciones disponibles y 1 Suite con Jacuzzi, habitaciones con colchón ortopédico, Televisor de 32", Citófono,
+                         Minibar, Luminarias Led, Sensores de humo y Baño privado  
+                      </p>
+
+                      <div class="embed-responsive embed-responsive-16by9 d-flex justify-content-center ">
+                        <iframe width="560" height="315" src="./Photos/pasillo-habitaciones.gif" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      <a href="./hotel/habitaciones.html"><button type="button" class="btn btn-primary" >Ver detalles</button></a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
       </div>
